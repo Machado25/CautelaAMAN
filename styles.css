@@ -1,0 +1,52 @@
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #070;
+}
+.foto {
+    width: 200px;
+    height: 250px;
+    border: 2px solid #530;
+    border-radius: 10px;
+    background-color: #fff;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: bottom;
+    padding: 20px;
+
+}
+.produtos {
+    width: 1000px;
+    height: 600px;
+    border: 2px solid #530;
+    border-radius: 10px;
+    background-color: #090;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.rodape{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #530;
+    border-radius: 10px;
+    background-color: #000;
+    display: flex;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #0f0;
+}
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #000;
+}

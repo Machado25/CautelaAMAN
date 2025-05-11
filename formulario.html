@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>Formulário de Inscrição</h1>
+        <p>Preencha o formulário abaixo para se inscrever na loja online e comprar os materiais desejados:</p> 
+        <form  action = "loja.html">
+            <label for = "nome">
+                Nome:
+            </label>
+            <input id = "nome" type = "text" placeholder="Digite seu nome" required>
+            <br><br><br>
+
+            <label for = "email">
+                E-mail:
+            </label>
+            <input id = "email" type = "email" placeholder="Digite seu e-mail" required>
+            <br><br><br>
+            
+            <label for = "senha">
+                Senha:
+            </label>
+            <input id = "senha" type = "password" placeholder="Digite sua senha" required>
+            <br><br><br>
+
+            <hr>
+
+            <h2>Materiais para cautelar ou comprar:</h2>
+            <input type = "checkbox" id = "cinto" name = "cinto">
+            <label for = "cinto">
+                Cinto NA
+            </label>
+            <br><br>
+            <input type = "checkbox" id = "suspensorio" name = "suspensorio">
+            <label for = "suspensorio">
+                Suspensório
+            </label>
+            <br><br>
+            <input type = "checkbox" id = "kit" name = "kit">
+            <label for = "kit">
+                Kit de manutenção de armamento
+            </label>
+            <br><br>
+            <input type = "checkbox" id = "cadeado" name = "cadeado">
+            <label for = "cadeado">
+                Cadeado
+            </label>
+            <br><br>
+            <input type = "checkbox" id = "cantil" name = "cantil">
+            <label for = "cantil">
+                Cantil
+            </label>
+            <br><br>
+            <input type = "checkbox" id = "porta_cantil" name = "porta_cantil">
+            <label for = "porta_cantil">
+                Porta Cantil
+            </label>
+            <br><br>
+            <input type = "checkbox" id = "elastico" name = "elastico">
+            <label for = "elastico">
+                Elásticos
+            </label>
+            <br><br>
+            <input type = "checkbox" id = "porta_carregador" name = "porta_carregador">
+            <label for = "porta_carregador">
+                Porta Carregador
+            </label>
+            <br><br><br>
+
+            <hr>
+
+            <h2>Você já é cliente da nossa loja?</h2>
+            <input type = "radio" id = "sim" name = "cliente" required>
+            <label for = "sim">
+                Sim
+            </label>
+            <br><br>
+            <input type = "radio" id = "nao" name = "cliente" required>
+            <label for = "nao" >
+                Não
+            </label>
+            <br><br>
+            <input type = "submit" value = "Enviar formulário">
+            <br><br><br>
+            
+
+        </form>   
+    </div>
+</body>
+</html>
